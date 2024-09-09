@@ -2364,8 +2364,8 @@ const serbian: DictResource[] = [
     id: 'serbian-top-words',
     name: "塞尔维亚语",
     description: '塞尔维亚语top1000词',
-    category: '代码练习',
-    tags: ['golang'],
+    category: '塞尔维亚语',
+    tags: ['塞尔维亚语'],
     url: 'serbian-top.json',
     length: 1000,
     translateLanguage: 'en',
@@ -2382,4 +2382,5 @@ export const dictionaryResources: DictResource[] = [
   ...japaneseExam,
   ...germanExam,
   ...enArticle,
+  ...serbian,
 ]
