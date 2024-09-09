@@ -2369,7 +2369,7 @@ const serbian: DictResource[] = [
     url: 'serbian-top.json',
     length: 1000,
     translateLanguage: 'en',
-    language: 'code',
+    language: 'serbian',
     type: DictType.word
   }
 ]

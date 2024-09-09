@@ -23,7 +23,7 @@ export const DefaultWord: Word = {
 export const PronunciationApi = 'https://dict.youdao.com/dictvoice?audio='
 
 export type TranslateLanguageType = 'en' | 'zh-CN' | 'ja' | 'de' | 'common' | ''
-export type LanguageType = 'en' | 'ja' | 'de' | 'code'
+export type LanguageType = 'en' | 'ja' | 'de' | 'code' | 'serbian'
 
 export type DictResource = {
   id: string
