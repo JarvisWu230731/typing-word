@@ -1,4 +1,4 @@
-import {DictResource, DictType} from "@/types.ts"
+import { DictResource, DictType } from "@/types.ts"
 
 // 中国考试
 const chinaExam: DictResource[] = [
@@ -2356,6 +2356,21 @@ const enArticle: DictResource[] = [
     translateLanguage: 'common',
     language: 'en',
     type: DictType.article
+  }
+]
+
+const serbian: DictResource[] = [
+  {
+    id: 'serbian-top-words',
+    name: "塞尔维亚语",
+    description: '塞尔维亚语top1000词',
+    category: '塞尔维亚语',
+    tags: ['塞尔维亚语'],
+    url: 'serbian-top.json',
+    length: 1000,
+    translateLanguage: 'en',
+    language: 'code',
+    type: DictType.word
   }
 ]
 
